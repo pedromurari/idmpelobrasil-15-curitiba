@@ -21,8 +21,8 @@ const TURMA_CONFIG = {
     enderecoDefinido: false,
     esgotada: false,
     sheetUrl:
-      "PLACEHOLDER_SHEET_URL",
-    checkoutUrl: "PLACEHOLDER_CHECKOUT_URL_MANHA",
+      "https://script.google.com/macros/s/AKfycbw6hg6FkXLk0MC_LdVCBFN7lNK0qw9tFujs_cDqRLbFW-QEQ_6-qJhSRdHmLDqqkME2/exec",
+    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD3GX",
   },
   "20jun_tarde": {
     label: "20/06 - Tarde",
@@ -33,8 +33,8 @@ const TURMA_CONFIG = {
     enderecoDefinido: false,
     esgotada: false,
     sheetUrl:
-      "PLACEHOLDER_SHEET_URL",
-    checkoutUrl: "PLACEHOLDER_CHECKOUT_URL_TARDE",
+      "https://script.google.com/macros/s/AKfycbw6hg6FkXLk0MC_LdVCBFN7lNK0qw9tFujs_cDqRLbFW-QEQ_6-qJhSRdHmLDqqkME2/exec",
+    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD3H0",
   },
 };
 
