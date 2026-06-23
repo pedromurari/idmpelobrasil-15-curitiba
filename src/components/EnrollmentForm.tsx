@@ -9,32 +9,32 @@ const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const NPA_EVENTO_ID = "94930d80-6054-499c-bd34-f36d69897919";
 
-type TurmaOption = "20jun_manha" | "20jun_tarde" | null;
+type TurmaOption = "18jul_manha" | "18jul_tarde" | null;
 
 const TURMA_CONFIG = {
-  "20jun_manha": {
-    label: "20/06 - Manha",
-    data: "20 de Junho",
+  "18jul_manha": {
+    label: "18/07 - Manha",
+    data: "18 de Julho",
     diaSemana: "Sabado",
     horario: "09:00 as 13:00",
-    endereco: "Floripa - SC (endereco a confirmar)",
-    enderecoDefinido: false,
+    endereco: "Dentro da Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba",
+    enderecoDefinido: true,
     esgotada: false,
     sheetUrl:
-      "https://script.google.com/macros/s/AKfycbw6hg6FkXLk0MC_LdVCBFN7lNK0qw9tFujs_cDqRLbFW-QEQ_6-qJhSRdHmLDqqkME2/exec",
-    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD3GX",
+      "PLACEHOLDER_SHEET_URL",
+    checkoutUrl: "PLACEHOLDER_CHECKOUT_URL_MANHA",
   },
-  "20jun_tarde": {
-    label: "20/06 - Tarde",
-    data: "20 de Junho",
+  "18jul_tarde": {
+    label: "18/07 - Tarde",
+    data: "18 de Julho",
     diaSemana: "Sabado",
     horario: "14:00 as 18:00",
-    endereco: "Floripa - SC (endereco a confirmar)",
-    enderecoDefinido: false,
+    endereco: "Dentro da Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba",
+    enderecoDefinido: true,
     esgotada: false,
     sheetUrl:
-      "https://script.google.com/macros/s/AKfycbw6hg6FkXLk0MC_LdVCBFN7lNK0qw9tFujs_cDqRLbFW-QEQ_6-qJhSRdHmLDqqkME2/exec",
-    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD3H0",
+      "PLACEHOLDER_SHEET_URL",
+    checkoutUrl: "PLACEHOLDER_CHECKOUT_URL_TARDE",
   },
 };
 
@@ -110,7 +110,7 @@ export const EnrollmentForm = () => {
       sheetParams.append("whatsapp", phoneToSend);
       sheetParams.append(
         "turma",
-        selectedTurma === "20jun_manha" ? "manha" : "tarde"
+        selectedTurma === "18jul_manha" ? "manha" : "tarde"
       );
       sheetParams.append("utm_source", urlParams.get("utm_source") || "");
       sheetParams.append("utm_medium", urlParams.get("utm_medium") || "");
@@ -137,11 +137,11 @@ export const EnrollmentForm = () => {
           nome: name.trim(),
           whatsapp: phoneToSend,
           fase: "novo",
-          turma: selectedTurma === "20jun_manha" ? "manha" : "tarde",
+          turma: selectedTurma === "18jul_manha" ? "manha" : "tarde",
         }),
       }).catch((err) => console.error("Erro ao salvar no CRM:", err));
 
-      const eventId = `npa_lp_floripa_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
+      const eventId = `npa_lp_curitiba_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
       const { externalId, fbp, fbc } = MetaIdentity.getIdentity();
 
       MetaIdentity.saveUserData({
@@ -333,7 +333,7 @@ export const EnrollmentForm = () => {
         <div>
           <Label className="text-foreground font-medium flex items-center gap-2 mb-3">
             <Calendar className="h-5 w-5" />
-            Escolha sua turma - 20 de Junho
+            Escolha sua turma - 18 de Julho
           </Label>
           <div className="space-y-3">
             {(Object.keys(TURMA_CONFIG) as TurmaOption[])
