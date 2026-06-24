@@ -22,7 +22,7 @@ const TURMA_CONFIG = {
     esgotada: false,
     sheetUrl:
       "PLACEHOLDER_SHEET_URL",
-    checkoutUrl: "PLACEHOLDER_CHECKOUT_URL_MANHA",
+    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD3GX",
   },
   "18jul_tarde": {
     label: "18/07 - Tarde",
@@ -34,7 +34,7 @@ const TURMA_CONFIG = {
     esgotada: false,
     sheetUrl:
       "PLACEHOLDER_SHEET_URL",
-    checkoutUrl: "PLACEHOLDER_CHECKOUT_URL_TARDE",
+    checkoutUrl: "https://checkout.institutodespertamente.shop/VCCL1O8SD3H0",
   },
 };
 
