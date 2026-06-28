@@ -456,7 +456,7 @@ const Index = () => {
               WhatsApp: (11) 97537-9719
             </p>
             <p className="flex items-center justify-center gap-2">
-              Av. D. Ana Costa, 61 - Gonzaga, Santos - SP
+              R. Padre Dehon, 814 - Hauer, Curitiba - PR
             </p>
           </div>
 
