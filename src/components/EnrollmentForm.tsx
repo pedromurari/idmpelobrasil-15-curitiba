@@ -17,7 +17,7 @@ const TURMA_CONFIG = {
     data: "18 de Julho",
     diaSemana: "Sabado",
     horario: "09:00 as 13:00",
-    endereco: "Dentro da Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba",
+    endereco: "R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba",
     enderecoDefinido: true,
     esgotada: false,
     sheetUrl:
@@ -29,7 +29,7 @@ const TURMA_CONFIG = {
     data: "18 de Julho",
     diaSemana: "Sabado",
     horario: "14:00 as 18:00",
-    endereco: "Dentro da Faculdade ESIC — R. Padre Dehon, 814 - Hauer - Curitiba",
+    endereco: "R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba",
     enderecoDefinido: true,
     esgotada: false,
     sheetUrl:
