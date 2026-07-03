@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/manha-pagar",
+      "destination": "https://checkout.institutodespertamente.shop/VCCL1O8SD3GX?utm_source=whatsapp&utm_medium=cobranca&utm_campaign=npa15_curitiba_manha&utm_content=lembrete_pagamento",
+      "permanent": false
+    },
+    {
+      "source": "/manha-presenca",
+      "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=whatsapp&utm_medium=confirmacao&utm_campaign=npa15_curitiba_manha&utm_content=confirmacao_presenca",
+      "permanent": false
+    },
+    {
+      "source": "/tarde-pagar",
+      "destination": "https://checkout.institutodespertamente.shop/VCCL1O8SD3H0?utm_source=whatsapp&utm_medium=cobranca&utm_campaign=npa15_curitiba_tarde&utm_content=lembrete_pagamento",
+      "permanent": false
+    },
+    {
+      "source": "/tarde-presenca",
+      "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=whatsapp&utm_medium=confirmacao&utm_campaign=npa15_curitiba_tarde&utm_content=confirmacao_presenca",
+      "permanent": false
+    }
+  ]
+}
