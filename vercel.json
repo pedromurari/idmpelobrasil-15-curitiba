@@ -19,6 +19,31 @@
       "source": "/tarde-presenca",
       "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=whatsapp&utm_medium=confirmacao&utm_campaign=npa15_curitiba_tarde&utm_content=confirmacao_presenca",
       "permanent": false
+    },
+    {
+      "source": "/isso-ou-aquilo",
+      "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=meta&utm_medium=cpc&utm_campaign=npa15_curitiba&utm_content=isso_ou_aquilo",
+      "permanent": false
+    },
+    {
+      "source": "/meme",
+      "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=meta&utm_medium=cpc&utm_campaign=npa15_curitiba&utm_content=meme_drake",
+      "permanent": false
+    },
+    {
+      "source": "/direto",
+      "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=meta&utm_medium=cpc&utm_campaign=npa15_curitiba&utm_content=direto_preco",
+      "permanent": false
+    },
+    {
+      "source": "/depoimento",
+      "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=meta&utm_medium=cpc&utm_campaign=npa15_curitiba&utm_content=depoimento_ugc",
+      "permanent": false
+    },
+    {
+      "source": "/pov-dor",
+      "destination": "https://curitiba.idmpelobrasil.com.br/?utm_source=meta&utm_medium=cpc&utm_campaign=npa15_curitiba&utm_content=pov_dor",
+      "permanent": false
     }
   ]
 }
