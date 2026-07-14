@@ -405,7 +405,7 @@ const Index = () => {
               <FAQItem
                 value="faq-4"
                 question="Quando e onde sera a experiencia?"
-                answer="A experiencia sera realizada no dia 18/07 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba - PR. As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
+                answer="A experiencia sera realizada no dia 18/07 (Sabado), com duas turmas: Manha (09h as 13h) e Tarde (14h as 18h), presencial na R. Vereador Washington Luiz, 509 - Jardim Social - Curitiba - PR (obs: no Google Maps esse endereco pode aparecer como 'Av. Presidente Washington Luiz' - e o mesmo local). As informacoes detalhadas serao enviadas imediatamente apos sua inscricao, por WhatsApp."
               />
               <FAQItem
                 value="faq-5"
@@ -457,13 +457,16 @@ const Index = () => {
             </p>
             <p className="flex items-center justify-center gap-2">
               <a
-                href="https://maps.app.goo.gl/JmC1i6FgGseycmxr9"
+                href="https://maps.app.goo.gl/4pdUzAx8hGvmNNmM7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
                 R. Vereador Washington Luiz, 509 - Jardim Social, Curitiba - PR
               </a>
+            </p>
+            <p className="text-xs text-muted-foreground/70">
+              (No Google Maps pode aparecer como "Av. Presidente Washington Luiz" — é o mesmo local)
             </p>
           </div>
 
