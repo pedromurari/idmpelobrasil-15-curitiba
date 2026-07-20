@@ -5,7 +5,7 @@ import { FAQItem } from "@/components/FAQItem";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { StudentGallery } from "@/components/StudentGallery";
 import { Accordion } from "@/components/ui/accordion";
-import rodrygoMurari from "@/assets/rodrygo-murari.png";
+import rodrygoMurari from "@/assets/rodrygo-murari.jpg";
 import { VideoPlayer } from "@/components/VideoPlayer";
 
 const Index = () => {
@@ -152,6 +152,7 @@ const Index = () => {
                 alt="Instituto DespertaMente"
                 className="h-20 md:h-28 w-auto"
                 src="/lovable-uploads/80f81ce8-3e86-4c85-861e-48dfe700a84d.png"
+                loading="lazy"
               />
             </div>
             <h2 className="md:text-4xl font-bold text-foreground mb-6 text-2xl">
@@ -188,6 +189,7 @@ const Index = () => {
                 <img
                   src={rodrygoMurari}
                   alt="Rodrygo Murari"
+                  loading="lazy"
                   className="w-64 h-64 md:w-80 md:h-80 rounded-2xl object-cover border-4 border-primary/30 shadow-2xl"
                 />
                 <div className="text-center mt-4">
@@ -439,6 +441,7 @@ const Index = () => {
               alt="Instituto DespertaMente"
               className="h-16 w-auto"
               src="/lovable-uploads/b4dec95d-4969-4772-a141-d5494b0b2efc.png"
+              loading="lazy"
             />
           </div>
           <p className="text-xl font-semibold text-foreground">
